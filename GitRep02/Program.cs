@@ -39,7 +39,7 @@ class Program
             // Проверяем строку с помощью процедуры
             if (ContainsOnlyLowercaseLetters(currentRow))
             {
-                Console.WriteLine($"Строка {i + 1} содержит только строчные буквы");
+                Console.WriteLine($"Строка {i + 1} не содержит заглавных букв");
                 hasLowercaseRows = true;
             }
         }
